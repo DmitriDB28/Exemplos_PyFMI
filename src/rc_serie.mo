@@ -9,7 +9,5 @@ model rc_serie
   
   equation
     der(x) = u/(r*c) - x/(r*c);
-
-annotation(
-    __OpenModelica_simulationFlags(lv = "LOG_STATS", s = "dassl"));
+  
 end rc_serie;
