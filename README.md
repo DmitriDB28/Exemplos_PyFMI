@@ -1,8 +1,8 @@
 # Guia de Instalação
 
-## Instalação do OpenModelica
+## OpenModelica
 
-## Instalação do Anaconda
+## Anaconda
 
 ### Configuração do Ambiente Virtual
 
