@@ -1,3 +1,12 @@
+# =====================================================================================
+# Carrega o FMU e realiza a simulacao de acordo com os 
+# parametros definidos no modelo (resistencia, capacitancia, 
+# tempo inicial, tempo final e numero de pontos).
+#
+# Plota os graficos com os resultados, podendo escolher entre plotar as 
+# linhas, os pontos, ou os dois juntos (basta comentar/descomentar as linhas de plot).
+# =====================================================================================
+
 import numpy as np
 from matplotlib import pyplot as plt
 from pyfmi import load_fmu
