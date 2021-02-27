@@ -12,18 +12,18 @@ O miniconda pode ser usado alternativamente.
 
 ### Configuração do Ambiente Virtual
 
-- Criar um ambiente virtual pelo anaconda com python 3.7.9.
+Criar um ambiente virtual pelo anaconda com python 3.7.9.
 
-  - Pode ser feito pela interface gráfica (Anaconda Navigator): Environments -> Create -> Python 3.7.9 -> Selecionar o ambiente criado e apertar no botão de play -> Open Terminal. 
+- Pode ser feito pela interface gráfica (Anaconda Navigator): Environments -> Create -> Python 3.7.9 -> Selecionar o ambiente criado e apertar no botão de play -> Open Terminal. 
 
-- Usar o terminal do ambiente virtual para instalar o PyFMI e executar os scripts.
+Usar o terminal do ambiente virtual para instalar o PyFMI e executar os scripts.
 
-- O ambiente virtual pode ser acessado pelo terminal através do seguinte comando:
+O ambiente virtual pode ser acessado pelo terminal através do seguinte comando:
 
 ```
 conda activate <nome_do_ambiente_virtual>
 ```
-- Para sair do ambiente virtual:
+Para sair do ambiente virtual:
 
 ```
 conda deactivate
@@ -38,9 +38,20 @@ conda config --add channels conda-forge
 conda install pyfmi
 ```
 
-# Execução dos exemplos contidos neste repositório
+# Arquivos contidos no repositório:
 
-No terminal do ambiente virtual contendo o Python 3.7.9, dentro da pasta /src:
+/src:
+- rc_serie.mo -> Código em Modelica do modelo de um circuito RC série.
+- exemplo_1.py -> Execução do modelo sem modificar seus parâmentros.
+- exemplo_2.py -> Execução do modelo modificando seus parâmetros.
+- exemplo_3.py -> Loop simples de feedback e integração com passo fixo do modelo.
+
+/fmu:
+- FMU do modelo do circuito RC série, gerado a partir do código em Modélica, usado nas simulações. 
+
+Execução dos exemplos:
+
+- No terminal do ambiente virtual contendo o Python 3.7.9, dentro da pasta /src:
 
 ```
 python <nome_do_exemplo>.py
