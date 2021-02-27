@@ -1,4 +1,4 @@
-# Exemplos_PyFMI
+# Guia de Instalação
 
 ## Instalação do OpenModelica
 
