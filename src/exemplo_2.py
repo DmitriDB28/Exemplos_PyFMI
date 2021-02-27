@@ -1,3 +1,16 @@
+# =====================================================================================
+# Carrega o FMU e realiza a simulacao de acordo com os 
+# parametros definidos neste código (tensao de entrada, resistencia, capacitancia, 
+# tempo inicial, tempo final e numero de pontos) - sobrescreve os valores contidos no 
+# modelo (padrão).
+#
+# A tensao de entrada (termo nao homogeneo da edo) pode ser um degrau (u) ou uma senoide (u_2),
+# basta comentar/descomentar a linha que cria a variavel input.
+# 
+# Plota os graficos com os resultados, podendo escolher entre plotar as 
+# linhas, os pontos, ou os dois juntos (basta comentar/descomentar as linhas de plot).
+# =====================================================================================
+
 import numpy as np
 import math
 from matplotlib import pyplot as plt
