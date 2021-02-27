@@ -2,6 +2,8 @@
 
 ## OpenModelica
 
+https://openmodelica.org#
+
 ## Anaconda
 
 ### Configuração do Ambiente Virtual
@@ -14,5 +16,9 @@ conda install pyfmi
 ```
 
 ### Instalação dos Módulos Adicionais
+
+```
+conda install ipython numpy cython matplotlib pandas
+```
 
 # Documentação
