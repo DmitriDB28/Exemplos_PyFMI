@@ -47,7 +47,7 @@ conda install pyfmi
 - exemplo_3.py -> Loop simples de feedback e integração com passo fixo do modelo.
 
 /fmu:
-- FMU do modelo do circuito RC série, gerado a partir do código em Modélica, usado nas simulações. 
+- FMU do modelo do circuito RC série usado nas simulações (gerado a partir do código em Modelica). 
 
 Execução dos exemplos:
 
