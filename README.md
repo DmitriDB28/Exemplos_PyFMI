@@ -36,7 +36,7 @@ conda config --add channels conda-forge
 conda install pyfmi
 ```
 
-# Arquivos contidos no repositório:
+# Arquivos contidos no repositório
 
 /src:
 - rc_serie.mo -> Código em Modelica do modelo de um circuito RC série.
