@@ -8,7 +8,7 @@ Baixar o instalador pelo site: https://openmodelica.org#
 
 Baixar o instalador pelo site: https://docs.anaconda.com/anaconda/install/
 
-O miniconda pode ser usado alternativamente.
+O miniconda pode ser usado alternativamente (não possui GUI).
 
 ### Configuração do Ambiente Virtual
 
